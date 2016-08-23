@@ -17,7 +17,7 @@ maxymin listaa = let maxmin lista = let mayor [] = 0
 				   										                          then smaller(a,b)
 				   										                          else menor([smaller(a,b)]++c)
 		 				                      in
-                                   (mayor lista, menor lista)
+                                  (mayor lista, menor lista)
                 in
                  if listaa==[]
 								 then []
